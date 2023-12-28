@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct EM_Booking_AppApp: App {
+struct EMBookingAppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
