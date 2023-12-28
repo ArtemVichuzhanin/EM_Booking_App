@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  EM_Booking_App
-//
-//  Created by Артем  on 27.12.2023.
-//
-
 import SwiftUI
 
 struct ContentView: View {
