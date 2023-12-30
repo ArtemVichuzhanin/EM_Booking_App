@@ -14,6 +14,15 @@
 		AC2AA1102B3D5D9B006D9376 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AA10F2B3D5D9B006D9376 /* NetworkRequest.swift */; };
 		AC2AA1122B3D5ED9006D9376 /* BaseNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AA1112B3D5ED9006D9376 /* BaseNetwork.swift */; };
 		AC2AA1152B3D6731006D9376 /* Combine+Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2AA1142B3D6731006D9376 /* Combine+Async.swift */; };
+		AC8752672B3DBFEC005502C7 /* ActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8752662B3DBFEC005502C7 /* ActionButtonView.swift */; };
+		AC87526C2B3DF2E5005502C7 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC87526B2B3DF2E5005502C7 /* Fonts.swift */; };
+		AC87526F2B3EB094005502C7 /* Examples.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC87526E2B3EB094005502C7 /* Examples.swift */; };
+		AC8752712B3EB352005502C7 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8752702B3EB352005502C7 /* ImageHelper.swift */; };
+		AC8752742B3F31CE005502C7 /* ViewExamplesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8752732B3F31CE005502C7 /* ViewExamplesProvider.swift */; };
+		AC8752762B3F3246005502C7 /* ViewExamplesLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8752752B3F3246005502C7 /* ViewExamplesLayout.swift */; };
+		AC8752782B3F37D5005502C7 /* ViewExamplesProvider+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8752772B3F37D5005502C7 /* ViewExamplesProvider+SwiftUI.swift */; };
+		AC87527A2B3F3AAE005502C7 /* ViewExamplesFlatMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8752792B3F3AAE005502C7 /* ViewExamplesFlatMap.swift */; };
+		AC8752802B40331C005502C7 /* XCAssets+Generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC87527F2B40331C005502C7 /* XCAssets+Generated.swift */; };
 		AC8E59FD2B3D8BAA00E66310 /* EMBookingAppDependencies in Frameworks */ = {isa = PBXBuildFile; productRef = AC8E59FC2B3D8BAA00E66310 /* EMBookingAppDependencies */; };
 		ACC0E9902B3C6D1400E486D1 /* EMBookingHotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC0E98F2B3C6D1400E486D1 /* EMBookingHotel.swift */; };
 		ACC0E9922B3C6D1400E486D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC0E9912B3C6D1400E486D1 /* ContentView.swift */; };
@@ -30,6 +39,15 @@
 		AC2AA1112B3D5ED9006D9376 /* BaseNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNetwork.swift; sourceTree = "<group>"; };
 		AC2AA1142B3D6731006D9376 /* Combine+Async.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Combine+Async.swift"; sourceTree = "<group>"; };
 		AC2AA1192B3D88F8006D9376 /* Package */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Package; sourceTree = "<group>"; };
+		AC8752662B3DBFEC005502C7 /* ActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonView.swift; sourceTree = "<group>"; };
+		AC87526B2B3DF2E5005502C7 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		AC87526E2B3EB094005502C7 /* Examples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Examples.swift; sourceTree = "<group>"; };
+		AC8752702B3EB352005502C7 /* ImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
+		AC8752732B3F31CE005502C7 /* ViewExamplesProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExamplesProvider.swift; sourceTree = "<group>"; };
+		AC8752752B3F3246005502C7 /* ViewExamplesLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExamplesLayout.swift; sourceTree = "<group>"; };
+		AC8752772B3F37D5005502C7 /* ViewExamplesProvider+SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewExamplesProvider+SwiftUI.swift"; sourceTree = "<group>"; };
+		AC8752792B3F3AAE005502C7 /* ViewExamplesFlatMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExamplesFlatMap.swift; sourceTree = "<group>"; };
+		AC87527F2B40331C005502C7 /* XCAssets+Generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCAssets+Generated.swift"; sourceTree = "<group>"; };
 		ACC0E98C2B3C6D1400E486D1 /* EMBookingHotel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMBookingHotel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACC0E98F2B3C6D1400E486D1 /* EMBookingHotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMBookingHotel.swift; sourceTree = "<group>"; };
 		ACC0E9912B3C6D1400E486D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,8 +77,11 @@
 		AC2AA0FF2B3D4C52006D9376 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				AC87526D2B3E07FC005502C7 /* Generated */,
 				ACC0E9932B3C6D1500E486D1 /* Assets.xcassets */,
 				AC2AA10D2B3D5BCA006D9376 /* Strings.swift */,
+				AC87526B2B3DF2E5005502C7 /* Fonts.swift */,
+				AC87526E2B3EB094005502C7 /* Examples.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -80,6 +101,7 @@
 				AC2AA1032B3D4D34006D9376 /* Room */,
 				AC2AA1042B3D4D5E006D9376 /* Booking */,
 				AC2AA1052B3D4DE7006D9376 /* SuccessfulBooking */,
+				AC8752652B3DBEEA005502C7 /* Common */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -127,9 +149,38 @@
 		AC2AA1132B3D6712006D9376 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				AC8752722B3F317F005502C7 /* ViewExamples */,
 				AC2AA1142B3D6731006D9376 /* Combine+Async.swift */,
+				AC8752702B3EB352005502C7 /* ImageHelper.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		AC8752652B3DBEEA005502C7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AC8752662B3DBFEC005502C7 /* ActionButtonView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		AC87526D2B3E07FC005502C7 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				AC87527F2B40331C005502C7 /* XCAssets+Generated.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		AC8752722B3F317F005502C7 /* ViewExamples */ = {
+			isa = PBXGroup;
+			children = (
+				AC8752732B3F31CE005502C7 /* ViewExamplesProvider.swift */,
+				AC8752752B3F3246005502C7 /* ViewExamplesLayout.swift */,
+				AC8752772B3F37D5005502C7 /* ViewExamplesProvider+SwiftUI.swift */,
+				AC8752792B3F3AAE005502C7 /* ViewExamplesFlatMap.swift */,
+			);
+			path = ViewExamples;
 			sourceTree = "<group>";
 		};
 		ACC0E9832B3C6D1400E486D1 = {
@@ -179,6 +230,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACC0E99A2B3C6D1500E486D1 /* Build configuration list for PBXNativeTarget "EMBookingHotel" */;
 			buildPhases = (
+				AC8752682B3DDC3A005502C7 /* Run SwiftGen */,
 				AC2AA0FE2B3D4AE2006D9376 /* Run SwiftLint */,
 				ACC0E9882B3C6D1400E486D1 /* Sources */,
 				ACC0E9892B3C6D1400E486D1 /* Frameworks */,
@@ -260,7 +312,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "ROOT_DIR=\"${PROJECT_DIR}/swiftlint\"\n\n${ROOT_DIR}/bin/swiftlint --config ${ROOT_DIR}/.swiftlint.yml --lenient\n";
+			shellScript = "ROOT_DIR=\"${PROJECT_DIR}/infra/SwiftLint\"\n\n${ROOT_DIR}/bin/swiftlint --config ${ROOT_DIR}/.swiftlint.yml --lenient\n";
+		};
+		AC8752682B3DDC3A005502C7 /* Run SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftGen";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "ROOT_DIR=\"${PROJECT_DIR}/infra/SwiftGen\"\n\n${ROOT_DIR}/bin/swiftgen config run --config ${ROOT_DIR}/swiftgen.yml\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -269,14 +339,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC8752742B3F31CE005502C7 /* ViewExamplesProvider.swift in Sources */,
+				AC8752762B3F3246005502C7 /* ViewExamplesLayout.swift in Sources */,
 				AC2AA1102B3D5D9B006D9376 /* NetworkRequest.swift in Sources */,
 				AC2AA1122B3D5ED9006D9376 /* BaseNetwork.swift in Sources */,
 				ACC0E9922B3C6D1400E486D1 /* ContentView.swift in Sources */,
 				AC2AA1152B3D6731006D9376 /* Combine+Async.swift in Sources */,
+				AC87526F2B3EB094005502C7 /* Examples.swift in Sources */,
 				AC2AA10A2B3D545E006D9376 /* APIMethods.swift in Sources */,
+				AC8752782B3F37D5005502C7 /* ViewExamplesProvider+SwiftUI.swift in Sources */,
+				AC8752802B40331C005502C7 /* XCAssets+Generated.swift in Sources */,
 				ACC0E9902B3C6D1400E486D1 /* EMBookingHotel.swift in Sources */,
 				AC2AA1082B3D526F006D9376 /* APIConfiguration.swift in Sources */,
+				AC8752712B3EB352005502C7 /* ImageHelper.swift in Sources */,
 				AC2AA10E2B3D5BCA006D9376 /* Strings.swift in Sources */,
+				AC87526C2B3DF2E5005502C7 /* Fonts.swift in Sources */,
+				AC8752672B3DBFEC005502C7 /* ActionButtonView.swift in Sources */,
+				AC87527A2B3F3AAE005502C7 /* ViewExamplesFlatMap.swift in Sources */,
 				AC2AA10C2B3D5AE5006D9376 /* NetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
