@@ -1,0 +1,9 @@
+xcassets:
+  - inputs:
+      - ../../EMBookingHotel/Resources/Assets.xcassets
+    outputs:
+      - templateName: swift5
+        params:
+          forceProvidesNamespaces: true
+          enumName: Assets
+        output: ../../EMBookingHotel/Resources/Generated/XCAssets+Generated.swift
