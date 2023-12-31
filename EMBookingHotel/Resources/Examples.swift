@@ -41,3 +41,13 @@ extension Image {
         }
     }
 }
+
+extension URL {
+    enum Examples {
+        static let sampleImageURLs: [URL] = {
+            let prefix =
+            "https://raw.githubusercontent.com/onevcat/Kingfisher-TestImages/master/DemoAppImage/Loading"
+            return (1...10).compactMap { URL(string: "\(prefix)/kingfisher-\($0).jpg") }
+        }()
+    }
+}

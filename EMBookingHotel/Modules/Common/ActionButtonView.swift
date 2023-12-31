@@ -1,5 +1,7 @@
 import SwiftUI
 
+// MARK: ViewModel
+
 struct ActionButtonViewModel {
     enum InfoType {
         case text(String)
@@ -19,6 +21,8 @@ struct ActionButtonViewModel {
     }
 }
 
+// MARK: - View
+
 struct ActionButtonView: View {
     let model: ActionButtonViewModel
 
@@ -32,7 +36,7 @@ struct ActionButtonView: View {
         .clipShape(.rect(cornerRadius: cornerRadius))
     }
 
-    // MARK: - Private
+    // MARK: Private
 
     private var cornerRadius: CGFloat {
         switch model.info {
@@ -118,7 +122,7 @@ struct ActionButtonView: View {
         }
     }
 
-    // MARK: - Constant
+    // MARK: Constants
 
     private enum Static {
         enum Layout {
