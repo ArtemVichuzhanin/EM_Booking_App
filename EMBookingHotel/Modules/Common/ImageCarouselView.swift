@@ -29,7 +29,7 @@ struct ImageCarouselView: View {
             .aspectRatio(Static.aspectRatio, contentMode: .fit)
             .clipShape(.rect(cornerRadius: Static.cornerRadius))
             .overlay(indexView(), alignment: .bottom)
-            .animation(.default,value: selectedTab)
+            .animation(.default, value: selectedTab)
         }
     }
 

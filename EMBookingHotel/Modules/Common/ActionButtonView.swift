@@ -68,7 +68,7 @@ struct ActionButtonView: View {
             Spacer()
             Text(text)
                 .font(Static.Font.primary)
-                .lineLimit(1)
+                .lineLimit(Static.textLineLimit)
             Spacer()
         }
         .foregroundStyle(Static.Color.contentPrimary)
@@ -81,7 +81,7 @@ struct ActionButtonView: View {
         HStack(spacing: Static.Layout.textWithChevronSpacing) {
             Text(text)
                 .font(Static.Font.primary)
-                .lineLimit(1)
+                .lineLimit(Static.textLineLimit)
             iconView(Static.Icon.chevronForward)
         }
         .foregroundStyle(Static.Color.contentSecondary)
@@ -110,7 +110,7 @@ struct ActionButtonView: View {
     @ViewBuilder
     private func iconView(_ image: Image) -> some View {
         image
-            .frame(width: 24, height: 24, alignment: .center)
+            .frame(width: Static.Layout.imageSize, height: Static.Layout.imageSize, alignment: .center)
     }
 
     private func backgroundColor(for type: ActionButtonViewModel.InfoType) -> Color {
@@ -158,6 +158,8 @@ struct ActionButtonView: View {
         enum Font {
             static let primary = Fonts.textMedium
         }
+
+        static let textLineLimit = 1
     }
 }
 

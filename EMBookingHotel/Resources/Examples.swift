@@ -24,12 +24,6 @@ extension String {
             static let normal = "weirdfreak@vf.ru"
             static let long = "Lorem.ipsum.dolor.sit.amet.consectetur.adipiscing@gmail.com"
         }
-
-        enum Price {
-            static let short = "99 ₽"
-            static let normal = "999 ₽"
-            static let long = "99999 ₽"
-        }
     }
 }
 
@@ -49,5 +43,21 @@ extension URL {
             "https://raw.githubusercontent.com/onevcat/Kingfisher-TestImages/master/DemoAppImage/Loading"
             return (1...10).compactMap { URL(string: "\(prefix)/kingfisher-\($0).jpg") }
         }()
+    }
+}
+
+extension Int {
+    enum Examples {
+        enum Rating {
+            static let low = 1
+            static let middle = 3
+            static let high = 5
+        }
+
+        enum Price {
+            static let short = 99
+            static let normal = 999
+            static let long = 99999
+        }
     }
 }

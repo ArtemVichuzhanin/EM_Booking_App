@@ -39,6 +39,14 @@ internal enum Assets {
       internal static let background = ColorAsset(name: "Colors/Index/background")
       internal static let dot = ColorAsset(name: "Colors/Index/dot")
     }
+    internal enum InfoSigns {
+      internal static let background = ColorAsset(name: "Colors/InfoSigns/background")
+      internal static let content = ColorAsset(name: "Colors/InfoSigns/content")
+    }
+    internal enum Rating {
+      internal static let background = ColorAsset(name: "Colors/Rating/background")
+      internal static let content = ColorAsset(name: "Colors/Rating/content")
+    }
   }
   internal enum Icons {
     internal static let arrowDown = ImageAsset(name: "Icons/arrowDown")
