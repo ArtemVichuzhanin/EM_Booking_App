@@ -49,6 +49,7 @@ internal enum Assets {
     }
     internal enum Text {
       internal static let primary = ColorAsset(name: "Colors/Text/primary")
+      internal static let secondary = ColorAsset(name: "Colors/Text/secondary")
     }
   }
   internal enum Icons {

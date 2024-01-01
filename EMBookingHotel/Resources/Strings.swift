@@ -8,4 +8,12 @@ enum Strings {
             comment: "Ошибка преобразования строки в ссылку"
         )
     }
+
+    enum Common {
+        static let pretextFrom: String = NSLocalizedString(
+            "Common.pretextFrom",
+            value: "от",
+            comment: "предлог от"
+        )
+    }
 }
