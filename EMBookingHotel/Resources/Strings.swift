@@ -16,4 +16,14 @@ enum Strings {
             comment: "предлог от"
         )
     }
+
+    enum Room {
+        enum Button {
+            static let more: String = NSLocalizedString(
+                "Room.Button.more",
+                value: "Подробнее о номере",
+                comment: "кнопка подробнее на экране выбора номера"
+            )
+        }
+    }
 }

@@ -61,3 +61,15 @@ extension Int {
         }
     }
 }
+
+extension Array where Element == String {
+    enum Examples {
+        static let arrayOfSomeText = [
+            "Normal Text",
+            "ipsum dolor",
+            "consequat",
+            "reprehenderit in voluptate velit",
+            "anim id est laborum"
+        ]
+    }
+}

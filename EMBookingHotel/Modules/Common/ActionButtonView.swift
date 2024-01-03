@@ -85,12 +85,9 @@ struct ActionButtonView: View {
             iconView(Static.Icon.chevronForward)
         }
         .foregroundStyle(Static.Color.contentSecondary)
-        .padding(EdgeInsets(
-            top: Static.Layout.textWithChevronVerticalInset,
-            leading: Static.Layout.textWithChevronLeadingInset,
-            bottom: Static.Layout.textWithChevronVerticalInset,
-            trailing: Static.Layout.textWithChevronTrailingInset
-        ))
+        .padding(.leading, Static.Layout.textWithChevronLeadingInset)
+        .padding(.trailing, Static.Layout.textWithChevronTrailingInset)
+        .frame(height: Static.Layout.textWithChevronHeight)
     }
 
     @ViewBuilder
@@ -110,7 +107,7 @@ struct ActionButtonView: View {
     @ViewBuilder
     private func iconView(_ image: Image) -> some View {
         image
-            .frame(width: Static.Layout.imageSize, height: Static.Layout.imageSize, alignment: .center)
+            .frame(width: Static.Layout.imageSize, height: Static.Layout.imageSize)
     }
 
     private func backgroundColor(for type: ActionButtonViewModel.InfoType) -> Color {
@@ -134,7 +131,7 @@ struct ActionButtonView: View {
             static let textWithChevronSpacing: CGFloat = 2
             static let textWithChevronLeadingInset: CGFloat = 10
             static let textWithChevronTrailingInset: CGFloat = 2
-            static let textWithChevronVerticalInset: CGFloat = 5
+            static let textWithChevronHeight: CGFloat = 29
 
             static let textCornerRadius: CGFloat = 15
             static let iconCornerRadius: CGFloat = 6

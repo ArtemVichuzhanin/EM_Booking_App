@@ -29,6 +29,8 @@
 		AC8752882B41A280005502C7 /* HotelMainInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8752872B41A280005502C7 /* HotelMainInfoView.swift */; };
 		AC87528A2B4323AE005502C7 /* PriceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8752892B4323AE005502C7 /* PriceView.swift */; };
 		AC87528C2B433084005502C7 /* NumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC87528B2B433084005502C7 /* NumberFormatter.swift */; };
+		AC87528E2B43F8AE005502C7 /* PeculiaritiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC87528D2B43F8AE005502C7 /* PeculiaritiesView.swift */; };
+		AC8752912B455F86005502C7 /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8752902B455F86005502C7 /* FlowLayout.swift */; };
 		AC8E59FD2B3D8BAA00E66310 /* EMBookingAppDependencies in Frameworks */ = {isa = PBXBuildFile; productRef = AC8E59FC2B3D8BAA00E66310 /* EMBookingAppDependencies */; };
 		ACC0E9902B3C6D1400E486D1 /* EMBookingHotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC0E98F2B3C6D1400E486D1 /* EMBookingHotel.swift */; };
 		ACC0E9922B3C6D1400E486D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC0E9912B3C6D1400E486D1 /* ContentView.swift */; };
@@ -60,6 +62,8 @@
 		AC8752872B41A280005502C7 /* HotelMainInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelMainInfoView.swift; sourceTree = "<group>"; };
 		AC8752892B4323AE005502C7 /* PriceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceView.swift; sourceTree = "<group>"; };
 		AC87528B2B433084005502C7 /* NumberFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormatter.swift; sourceTree = "<group>"; };
+		AC87528D2B43F8AE005502C7 /* PeculiaritiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeculiaritiesView.swift; sourceTree = "<group>"; };
+		AC8752902B455F86005502C7 /* FlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
 		ACC0E98C2B3C6D1400E486D1 /* EMBookingHotel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMBookingHotel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACC0E98F2B3C6D1400E486D1 /* EMBookingHotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMBookingHotel.swift; sourceTree = "<group>"; };
 		ACC0E9912B3C6D1400E486D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -172,12 +176,14 @@
 		AC8752652B3DBEEA005502C7 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				AC87528F2B455F64005502C7 /* Layouts */,
 				AC8752662B3DBFEC005502C7 /* ActionButtonView.swift */,
 				AC8752812B409C16005502C7 /* ImageCarouselView.swift */,
 				AC8752832B40BE0C005502C7 /* CustomIndexView.swift */,
 				AC8752852B4184BE005502C7 /* InfoSignsView.swift */,
 				AC8752872B41A280005502C7 /* HotelMainInfoView.swift */,
 				AC8752892B4323AE005502C7 /* PriceView.swift */,
+				AC87528D2B43F8AE005502C7 /* PeculiaritiesView.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -199,6 +205,14 @@
 				AC8752792B3F3AAE005502C7 /* ViewExamplesFlatMap.swift */,
 			);
 			path = ViewExamples;
+			sourceTree = "<group>";
+		};
+		AC87528F2B455F64005502C7 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				AC8752902B455F86005502C7 /* FlowLayout.swift */,
+			);
+			path = Layouts;
 			sourceTree = "<group>";
 		};
 		ACC0E9832B3C6D1400E486D1 = {
@@ -377,8 +391,10 @@
 				ACC0E9902B3C6D1400E486D1 /* EMBookingHotel.swift in Sources */,
 				AC2AA1082B3D526F006D9376 /* APIConfiguration.swift in Sources */,
 				AC87528A2B4323AE005502C7 /* PriceView.swift in Sources */,
+				AC87528E2B43F8AE005502C7 /* PeculiaritiesView.swift in Sources */,
 				AC8752712B3EB352005502C7 /* ImageHelper.swift in Sources */,
 				AC2AA10E2B3D5BCA006D9376 /* Strings.swift in Sources */,
+				AC8752912B455F86005502C7 /* FlowLayout.swift in Sources */,
 				AC87526C2B3DF2E5005502C7 /* Fonts.swift in Sources */,
 				AC8752672B3DBFEC005502C7 /* ActionButtonView.swift in Sources */,
 				AC87527A2B3F3AAE005502C7 /* ViewExamplesFlatMap.swift in Sources */,
